@@ -7,4 +7,5 @@ vector<int> threeWayMerge(vector<int> array1, vector<int> array2, vector<int> ar
         int counterarrayOne = 0;
         int counterarrayTwo = 0;
         int counterarrayThree = 0;
+        int counter = 0;
 }

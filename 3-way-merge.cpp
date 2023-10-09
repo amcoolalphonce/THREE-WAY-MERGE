@@ -6,4 +6,5 @@ vector<int> threeWayMerge(vector<int> array1, vector<int> array2, vector<int> ar
         vector<int> arraysorted;
         int counterarrayOne = 0;
         int counterarrayTwo = 0;
+        int counterarrayThree = 0;
 }

@@ -11,5 +11,8 @@ vector<int> threeWayMerge(vector<int> array1, vector<int> array2, vector<int> ar
         while (counterarrayOne < array1.size() && (counterarrayTwo < array2.size() && counterarrayThree < array3.size()))
         {
                 if (array1[counterarrayOne] < array2[counterarrayTwo])
+                {
+                        
+                }
         }
 }

@@ -12,13 +12,16 @@ vector<int> threeWayMerge(vector<int> array1, vector<int> array2, vector<int> ar
         {
                 if (array1[counterarrayOne] < array2[counterarrayTwo])
                 {
-                        arraysorted.push_back(array1[counterarrayOne]);
-                        counterarrayOne++;
-                }
-                else
-                {
-                        arraysorted.push_back(array3[counterarrayThree]);
-                        counterarrayThree++;
+                        if(array1[counterarrayOne] < array3[counterarrayThree]
+                        {
+                                arraysorted.push_back(array1[counterarrayOne]);
+                                counterarrayOne++;
+                        }
+                        else
+                        {
+                                arraysorted.push_back(array3[counterarrayThree]);
+                                counterarrayThree++;
+                        }
                 }
         }
 }

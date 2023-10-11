@@ -15,5 +15,9 @@ vector<int> threeWayMerge(vector<int> array1, vector<int> array2, vector<int> ar
                         arraysorted.push_back(array1[counterarrayOne]);
                         counterarrayOne++;
                 }
+                else
+                {
+                        
+                }
         }
 }

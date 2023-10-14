@@ -44,6 +44,7 @@ vector<int> threeWayMerge(vector<int> array1, vector<int> array2, vector<int> ar
                                 counter++;
                                 counterarrayTwo++;
                         }
+                        while(counterarrayThree < array3.size())
                 }
         }
 }

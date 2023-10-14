@@ -22,35 +22,35 @@ vector<int> threeWayMerge(vector<int> array1, vector<int> array2, vector<int> ar
                                 arraysorted.push_back(array3[counterarrayThree]);
                                 counterarrayThree++;
                         }
-                        else
-                        {
-                                if (array2[counterarrayTwo] < array3[counterarrayThree])
-                                {
-                                        arraysorted.push_back(array2[counterarrayTwo]);
-                                        counterarrayTwo++;
-                                }
-                                counter++;
-                        }
-
-                        while(counterarrayOne < array1.size())
-                        {
-                                arraysorted.push_back(array1[counterarrayOne]);
-                                counter++;
-                                counterarrayOne++;
-                        }
-                        while(counterarrayTwo < array2.size())
+                }
+                else
+                {
+                        if (array2[counterarrayTwo] < array3[counterarrayThree])
                         {
                                 arraysorted.push_back(array2[counterarrayTwo]);
-                                counter++;
                                 counterarrayTwo++;
                         }
-                        while(counterarrayThree < array3.size())
-                        {
-                                arraysorted.push_back(array3[counterarrayThree]);
-                                counter++;
-                                counterarrayThree++;
-                        }
-                        return arraysorted;
+                        counter++;
+                }
+
+                while(counterarrayOne < array1.size())
+                {
+                        arraysorted.push_back(array1[counterarrayOne]);
+                        counter++;
+                        counterarrayOne++;
+                }
+                while(counterarrayTwo < array2.size())
+                {
+                        arraysorted.push_back(array2[counterarrayTwo]);
+                        counter++;
+                        counterarrayTwo++;
+                }
+                while(counterarrayThree < array3.size())
+                {
+                        arraysorted.push_back(array3[counterarrayThree]);
+                        counter++;
+                        counterarrayThree++;
                 }
         }
+        return arraysorted;
 }

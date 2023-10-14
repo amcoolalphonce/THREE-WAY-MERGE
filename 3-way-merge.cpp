@@ -66,4 +66,6 @@ int main()
         {
                 cout<<sortedarr[i]<<"";
         }
+
+        return 0;
 }

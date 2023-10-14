@@ -64,6 +64,6 @@ int main()
 
         for(int i -0; i< sortedarr.size(); i++)
         {
-                
+                cout<<sortedarr[i]<<"";
         }
 }

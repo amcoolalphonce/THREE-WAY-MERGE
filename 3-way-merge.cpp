@@ -56,3 +56,6 @@ vector<int> threeWayMerge(vector<int> array1, vector<int> array2, vector<int> ar
 
 
 int main()
+{
+        vector<int> arr1 = {10, 20, 30, 40, 50};
+}
